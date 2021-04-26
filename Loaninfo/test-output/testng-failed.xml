@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="Testcases.Logintestcases">
+        <methods>
+          <include name="closedbrowser"/>
+          <include name="lanchbrowser"/>
+          <include name="functionorder"/>
+        </methods>
+      </class> <!-- Testcases.Logintestcases -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="BorrowTest(failed)">
+    <classes>
+      <class name="Testcases.BorrowTestcases">
+        <methods>
+          <include name="closedbrowser"/>
+          <include name="BorrowFunction"/>
+          <include name="lanchbrowser"/>
+        </methods>
+      </class> <!-- Testcases.BorrowTestcases -->
+    </classes>
+  </test> <!-- BorrowTest(failed) -->
+  <test thread-count="5" name="CompanyTest(failed)">
+    <classes>
+      <class name="Testcases.CompanyTestccases">
+        <methods>
+          <include name="closedbrowser"/>
+          <include name="CompanyInfo"/>
+          <include name="lanchbrowser"/>
+        </methods>
+      </class> <!-- Testcases.CompanyTestccases -->
+    </classes>
+  </test> <!-- CompanyTest(failed) -->
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testcases.BorrowinfoTestcases">
+        <methods>
+          <include name="closedbrowser"/>
+          <include name="Borrowdetails"/>
+          <include name="lanchbrowser"/>
+          <include name="Borrowinfodetails"/>
+        </methods>
+      </class> <!-- Testcases.BorrowinfoTestcases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="CoborrowserTest(failed)">
+    <classes>
+      <class name="Testcases.Co_borrowser">
+        <methods>
+          <include name="closedbrowser"/>
+          <include name="lanchbrowser"/>
+          <include name="Co_Borrowser_fun"/>
+        </methods>
+      </class> <!-- Testcases.Co_borrowser -->
+    </classes>
+  </test> <!-- CoborrowserTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

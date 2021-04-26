@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="LoginTest">
+    <classes>
+      <class name="Testcases.Logintestcases"/>
+      
+       </classes>
+  </test> <!-- Test -->
+<test name="BorrowTest">
+    <classes>
+     
+      <class name="Testcases.BorrowTestcases"/>
+       </classes>
+  </test> <!-- Test -->
+  <test name="CompanyTest">
+    <classes>
+      <class name="Testcases.CompanyTestccases"/>
+      
+       </classes>
+  </test> <!-- Test -->
+   <test name="Test">
+    <classes>
+      <class name="Testcases.BorrowinfoTestcases"/>
+      
+       </classes>
+  </test> <!-- Test -->
+  <test name="CoborrowserTest">
+    <classes>
+      <class name="Testcases.Co_borrowser"/>
+      
+       </classes>
+  </test> <!-- Test -->
+
+ 
+</suite> <!-- Suite -->
